@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 import os
-import cifar10
+from utils import cifar10
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '1'
 
